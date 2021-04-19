@@ -10,7 +10,7 @@ endif()
 # BOOST LIBRARY
 set(Boost_USE_STATIC_LIBS        ON)
 set(Boost_USE_MULTITHREADED      ON)
-set(BOOST_ROOT "F:\\cpplib\\boost_1_65_1")
+set(BOOST_ROOT "C:\\boost")
 find_package(Boost COMPONENTS system filesystem program_options)
 
 if(Boost_FOUND)
